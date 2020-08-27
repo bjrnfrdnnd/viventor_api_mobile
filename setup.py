@@ -13,7 +13,7 @@
 
 from setuptools import setup, find_packages  # noqa: H301
 
-NAME = "swagger-client"
+NAME = "viventor_api_mobile"
 VERSION = "1.0.0"
 # To install the library, run the following
 #
@@ -33,10 +33,10 @@ REQUIRES = [
 setup(
     name=NAME,
     version=VERSION,
-    description="Mobile API",
+    description="Viventor Mobile API",
     author_email="",
     url="",
-    keywords=["Swagger", "Mobile API"],
+    keywords=["Swagger", "Viventor Mobile API"],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
