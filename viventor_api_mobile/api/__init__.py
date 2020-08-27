@@ -1,0 +1,14 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from viventor_api_mobile.api.account_controller_api import AccountControllerApi
+from viventor_api_mobile.api.auto_invest_controller_api import AutoInvestControllerApi
+from viventor_api_mobile.api.documents_controller_api import DocumentsControllerApi
+from viventor_api_mobile.api.filter_controller_api import FilterControllerApi
+from viventor_api_mobile.api.investment_controller_api import InvestmentControllerApi
+from viventor_api_mobile.api.legacy_authentication_controller_api import LegacyAuthenticationControllerApi
+from viventor_api_mobile.api.legacy_password_controller_api import LegacyPasswordControllerApi
+from viventor_api_mobile.api.statistics_controller_api import StatisticsControllerApi
+from viventor_api_mobile.api.user_controller_api import UserControllerApi
