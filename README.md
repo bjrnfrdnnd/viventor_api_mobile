@@ -46,26 +46,29 @@ Please follow the [installation procedure](#installation--usage) and then run th
 
 ```python
 from __future__ import print_function
-import time
+
 import viventor_api_mobile
+from viventor_api_mobile import LegacyAuthenticationControllerApi, AccessToken
 from viventor_api_mobile.rest import ApiException
-from pprint import pprint
 
 # Configure API key authorization: apiKey
 configuration = viventor_api_mobile.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
-# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+configuration.username = '<your email>'
+configuration.password = '<your password>'
 configuration.api_key_prefix['Authorization'] = 'Bearer'
 
+api_client = viventor_api_mobile.ApiClient(configuration=configuration)
+laca = LegacyAuthenticationControllerApi(api_client=api_client)
+
+a: AccessToken = laca.get_token_using_post(email=configuration.username, password=configuration.password, web=True)
+configuration.api_key['Authorization'] = a.token
+
 # create an instance of the API class
-api_instance = viventor_api_mobile.AccountControllerApi(viventor_api_mobile.ApiClient(configuration))
-start_date = 'start_date_example' # str |  (optional)
-end_date = 'end_date_example' # str |  (optional)
-payment_type = 56 # int |  (optional)
+api_instance = viventor_api_mobile.AccountControllerApi(api_client=api_client)
 
 try:
-    # exportAndDownloadStatementAsJson
-    api_instance.export_and_download_statement_as_json_using_post(start_date=start_date, end_date=end_date, payment_type=payment_type)
+    a = api_instance.get_account_balance_using_get()
+    print(a)
 except ApiException as e:
     print("Exception when calling AccountControllerApi->export_and_download_statement_as_json_using_post: %s\n" % e)
 
