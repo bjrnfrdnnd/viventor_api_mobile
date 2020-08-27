@@ -23,7 +23,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import viventor_api_mobile 
+import api_mobile 
 ```
 
 ### Setuptools
@@ -37,7 +37,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import viventor_api_mobile
+import api_mobile
 ```
 
 ## Getting Started
@@ -47,24 +47,24 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 from __future__ import print_function
 
-import viventor_api_mobile
-from viventor_api_mobile import LegacyAuthenticationControllerApi, AccessToken
-from viventor_api_mobile.rest import ApiException
+import api_mobile
+from api_mobile import LegacyAuthenticationControllerApi, AccessToken
+from api_mobile.rest import ApiException
 
 # Configure API key authorization: apiKey
-configuration = viventor_api_mobile.Configuration()
+configuration = api_mobile.Configuration()
 configuration.username = '<your email>'
 configuration.password = '<your password>'
 configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-api_client = viventor_api_mobile.ApiClient(configuration=configuration)
+api_client = api_mobile.ApiClient(configuration=configuration)
 laca = LegacyAuthenticationControllerApi(api_client=api_client)
 
 a: AccessToken = laca.get_token_using_post(email=configuration.username, password=configuration.password, web=True)
 configuration.api_key['Authorization'] = a.token
 
 # create an instance of the API class
-api_instance = viventor_api_mobile.AccountControllerApi(api_client=api_client)
+api_instance = api_mobile.AccountControllerApi(api_client=api_client)
 
 try:
     a = api_instance.get_account_balance_using_get()

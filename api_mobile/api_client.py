@@ -23,9 +23,9 @@ import tempfile
 import six
 from six.moves.urllib.parse import quote
 
-from viventor_api_mobile.configuration import Configuration
-import viventor_api_mobile.models
-from viventor_api_mobile import rest
+from api_mobile.configuration import Configuration
+import api_mobile.models
+from api_mobile import rest
 
 
 class ApiClient(object):
@@ -266,7 +266,7 @@ class ApiClient(object):
             if klass in self.NATIVE_TYPES_MAPPING:
                 klass = self.NATIVE_TYPES_MAPPING[klass]
             else:
-                klass = getattr(viventor_api_mobile.models, klass)
+                klass = getattr(api_mobile.models, klass)
 
         if klass in self.PRIMITIVE_TYPES:
             return self.__deserialize_primitive(data, klass)

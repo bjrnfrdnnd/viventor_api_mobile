@@ -17,18 +17,18 @@ downloadSettingsDocument
 ```python
 from __future__ import print_function
 import time
-import viventor_api_mobile
-from viventor_api_mobile.rest import ApiException
+import api_mobile
+from api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = viventor_api_mobile.Configuration()
+configuration = api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = viventor_api_mobile.DocumentsControllerApi(viventor_api_mobile.ApiClient(configuration))
+api_instance = api_mobile.DocumentsControllerApi(api_mobile.ApiClient(configuration))
 id = 789 # int | id
 
 try:
@@ -68,18 +68,18 @@ uploadDocument
 ```python
 from __future__ import print_function
 import time
-import viventor_api_mobile
-from viventor_api_mobile.rest import ApiException
+import api_mobile
+from api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = viventor_api_mobile.Configuration()
+configuration = api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = viventor_api_mobile.DocumentsControllerApi(viventor_api_mobile.ApiClient(configuration))
+api_instance = api_mobile.DocumentsControllerApi(api_mobile.ApiClient(configuration))
 document_file = '/path/to/file.txt' # file | document[file]
 
 try:
