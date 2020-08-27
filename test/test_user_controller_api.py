@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.user_controller_api import UserControllerApi  # noqa: E501
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.api.user_controller_api import UserControllerApi  # noqa: E501
+from viventor_api_mobile.rest import ApiException
 
 
 class TestUserControllerApi(unittest.TestCase):
     """UserControllerApi unit test stubs"""
 
     def setUp(self):
-        self.api = swagger_client.api.user_controller_api.UserControllerApi()  # noqa: E501
+        self.api = viventor_api_mobile.api.user_controller_api.UserControllerApi()  # noqa: E501
 
     def tearDown(self):
         pass

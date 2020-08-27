@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.bank_account_model import BankAccountModel  # noqa: E501
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.models.bank_account_model import BankAccountModel  # noqa: E501
+from viventor_api_mobile.rest import ApiException
 
 
 class TestBankAccountModel(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestBankAccountModel(unittest.TestCase):
     def testBankAccountModel(self):
         """Test BankAccountModel"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.bank_account_model.BankAccountModel()  # noqa: E501
+        # model = viventor_api_mobile.models.bank_account_model.BankAccountModel()  # noqa: E501
         pass
 
 

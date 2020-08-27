@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.legacy_password_controller_api import LegacyPasswordControllerApi  # noqa: E501
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.api.legacy_password_controller_api import LegacyPasswordControllerApi  # noqa: E501
+from viventor_api_mobile.rest import ApiException
 
 
 class TestLegacyPasswordControllerApi(unittest.TestCase):
     """LegacyPasswordControllerApi unit test stubs"""
 
     def setUp(self):
-        self.api = swagger_client.api.legacy_password_controller_api.LegacyPasswordControllerApi()  # noqa: E501
+        self.api = viventor_api_mobile.api.legacy_password_controller_api.LegacyPasswordControllerApi()  # noqa: E501
 
     def tearDown(self):
         pass

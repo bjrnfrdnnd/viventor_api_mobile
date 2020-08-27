@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.filter_model import FilterModel  # noqa: E501
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.models.filter_model import FilterModel  # noqa: E501
+from viventor_api_mobile.rest import ApiException
 
 
 class TestFilterModel(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestFilterModel(unittest.TestCase):
     def testFilterModel(self):
         """Test FilterModel"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.filter_model.FilterModel()  # noqa: E501
+        # model = viventor_api_mobile.models.filter_model.FilterModel()  # noqa: E501
         pass
 
 

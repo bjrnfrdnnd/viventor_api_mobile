@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.add_funds_credentials import AddFundsCredentials  # noqa: E501
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.models.add_funds_credentials import AddFundsCredentials  # noqa: E501
+from viventor_api_mobile.rest import ApiException
 
 
 class TestAddFundsCredentials(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestAddFundsCredentials(unittest.TestCase):
     def testAddFundsCredentials(self):
         """Test AddFundsCredentials"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.add_funds_credentials.AddFundsCredentials()  # noqa: E501
+        # model = viventor_api_mobile.models.add_funds_credentials.AddFundsCredentials()  # noqa: E501
         pass
 
 

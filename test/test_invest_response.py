@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.invest_response import InvestResponse  # noqa: E501
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.models.invest_response import InvestResponse  # noqa: E501
+from viventor_api_mobile.rest import ApiException
 
 
 class TestInvestResponse(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestInvestResponse(unittest.TestCase):
     def testInvestResponse(self):
         """Test InvestResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.invest_response.InvestResponse()  # noqa: E501
+        # model = viventor_api_mobile.models.invest_response.InvestResponse()  # noqa: E501
         pass
 
 

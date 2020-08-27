@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.factoring import Factoring  # noqa: E501
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.models.factoring import Factoring  # noqa: E501
+from viventor_api_mobile.rest import ApiException
 
 
 class TestFactoring(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestFactoring(unittest.TestCase):
     def testFactoring(self):
         """Test Factoring"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.factoring.Factoring()  # noqa: E501
+        # model = viventor_api_mobile.models.factoring.Factoring()  # noqa: E501
         pass
 
 

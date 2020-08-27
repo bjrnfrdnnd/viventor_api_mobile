@@ -22,18 +22,18 @@ activate
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AutoInvestControllerApi(swagger_client.ApiClient(configuration))
+api_instance = viventor_api_mobile.AutoInvestControllerApi(viventor_api_mobile.ApiClient(configuration))
 id = 789 # int | id
 
 try:
@@ -74,19 +74,19 @@ addAutoInvestment
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AutoInvestControllerApi(swagger_client.ApiClient(configuration))
-auto_investment_view = swagger_client.AutoInvestmentView() # AutoInvestmentView | autoInvestmentView
+api_instance = viventor_api_mobile.AutoInvestControllerApi(viventor_api_mobile.ApiClient(configuration))
+auto_investment_view = viventor_api_mobile.AutoInvestmentView() # AutoInvestmentView | autoInvestmentView
 
 try:
     # addAutoInvestment
@@ -126,18 +126,18 @@ delete
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AutoInvestControllerApi(swagger_client.ApiClient(configuration))
+api_instance = viventor_api_mobile.AutoInvestControllerApi(viventor_api_mobile.ApiClient(configuration))
 id = 789 # int | id
 
 try:
@@ -178,20 +178,20 @@ editAutoInvestment
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AutoInvestControllerApi(swagger_client.ApiClient(configuration))
+api_instance = viventor_api_mobile.AutoInvestControllerApi(viventor_api_mobile.ApiClient(configuration))
 id = 789 # int | id
-auto_investment_view = swagger_client.AutoInvestmentView() # AutoInvestmentView | autoInvestmentView
+auto_investment_view = viventor_api_mobile.AutoInvestmentView() # AutoInvestmentView | autoInvestmentView
 
 try:
     # editAutoInvestment
@@ -232,18 +232,18 @@ getAutoInvestmentList
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AutoInvestControllerApi(swagger_client.ApiClient(configuration))
+api_instance = viventor_api_mobile.AutoInvestControllerApi(viventor_api_mobile.ApiClient(configuration))
 
 try:
     # getAutoInvestmentList
@@ -280,18 +280,18 @@ getAutoInvestmentView
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AutoInvestControllerApi(swagger_client.ApiClient(configuration))
+api_instance = viventor_api_mobile.AutoInvestControllerApi(viventor_api_mobile.ApiClient(configuration))
 id = 789 # int | id
 
 try:
@@ -332,18 +332,18 @@ stop
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AutoInvestControllerApi(swagger_client.ApiClient(configuration))
+api_instance = viventor_api_mobile.AutoInvestControllerApi(viventor_api_mobile.ApiClient(configuration))
 id = 789 # int | id
 
 try:

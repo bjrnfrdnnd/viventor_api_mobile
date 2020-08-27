@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.year_month import YearMonth  # noqa: E501
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.models.year_month import YearMonth  # noqa: E501
+from viventor_api_mobile.rest import ApiException
 
 
 class TestYearMonth(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestYearMonth(unittest.TestCase):
     def testYearMonth(self):
         """Test YearMonth"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.year_month.YearMonth()  # noqa: E501
+        # model = viventor_api_mobile.models.year_month.YearMonth()  # noqa: E501
         pass
 
 

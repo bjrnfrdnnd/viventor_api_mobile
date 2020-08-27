@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.coordinates import Coordinates  # noqa: E501
-from swagger_client.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.models.coordinates import Coordinates  # noqa: E501
+from viventor_api_mobile.rest import ApiException
 
 
 class TestCoordinates(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestCoordinates(unittest.TestCase):
     def testCoordinates(self):
         """Test Coordinates"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.coordinates.Coordinates()  # noqa: E501
+        # model = viventor_api_mobile.models.coordinates.Coordinates()  # noqa: E501
         pass
 
 
