@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import api_mobile
-from api_mobile.api.statistics_controller_api import StatisticsControllerApi  # noqa: E501
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.api.statistics_controller_api import StatisticsControllerApi  # noqa: E501
+from viventor_api_mobile.rest import ApiException
 
 
 class TestStatisticsControllerApi(unittest.TestCase):
     """StatisticsControllerApi unit test stubs"""
 
     def setUp(self):
-        self.api = api_mobile.api.statistics_controller_api.StatisticsControllerApi()  # noqa: E501
+        self.api = viventor_api_mobile.api.statistics_controller_api.StatisticsControllerApi()  # noqa: E501
 
     def tearDown(self):
         pass

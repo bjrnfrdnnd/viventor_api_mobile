@@ -18,19 +18,19 @@ changePassword
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.LegacyPasswordControllerApi(api_mobile.ApiClient(configuration))
-change_password_info = api_mobile.ChangePasswordInfo() # ChangePasswordInfo | changePasswordInfo
+api_instance = viventor_api_mobile.LegacyPasswordControllerApi(api_mobile.ApiClient(configuration))
+change_password_info = viventor_api_mobile.ChangePasswordInfo() # ChangePasswordInfo | changePasswordInfo
 
 try:
     # changePassword
@@ -70,19 +70,19 @@ confirmPasswordReset
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.LegacyPasswordControllerApi(api_mobile.ApiClient(configuration))
-reset_password_info = api_mobile.ResetPasswordInfo() # ResetPasswordInfo | resetPasswordInfo
+api_instance = viventor_api_mobile.LegacyPasswordControllerApi(api_mobile.ApiClient(configuration))
+reset_password_info = viventor_api_mobile.ResetPasswordInfo() # ResetPasswordInfo | resetPasswordInfo
 
 try:
     # confirmPasswordReset
@@ -122,18 +122,18 @@ requestPasswordReset
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.LegacyPasswordControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.LegacyPasswordControllerApi(api_mobile.ApiClient(configuration))
 email = 'email_example' # str | email
 
 try:

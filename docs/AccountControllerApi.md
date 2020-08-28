@@ -23,18 +23,18 @@ exportAndDownloadStatementAsJson
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
 start_date = 'start_date_example' # str |  (optional)
 end_date = 'end_date_example' # str |  (optional)
 payment_type = 56 # int |  (optional)
@@ -78,19 +78,19 @@ exportAndDownloadStatementIOS
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
-query = api_mobile.StatementQuery() # StatementQuery | query
+api_instance = viventor_api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
+query = viventor_api_mobile.StatementQuery() # StatementQuery | query
 
 try:
     # exportAndDownloadStatementIOS
@@ -129,18 +129,18 @@ exportAndDownloadStatement
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
 start_date = 'start_date_example' # str |  (optional)
 end_date = 'end_date_example' # str |  (optional)
 payment_type = 56 # int |  (optional)
@@ -184,18 +184,18 @@ generateTaxReportInHtml
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
 start_date = 'start_date_example' # str |  (optional)
 end_date = 'end_date_example' # str |  (optional)
 
@@ -238,18 +238,18 @@ generateTaxReportInPdf
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
 start_date = 'start_date_example' # str |  (optional)
 end_date = 'end_date_example' # str |  (optional)
 
@@ -291,18 +291,18 @@ getAccountBalance
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # getAccountBalance
@@ -339,18 +339,18 @@ getAccountStatement
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # getAccountStatement
@@ -387,18 +387,18 @@ getAccountStatement
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.AccountControllerApi(api_mobile.ApiClient(configuration))
 start_date = 'start_date_example' # str |  (optional)
 end_date = 'end_date_example' # str |  (optional)
 payment_type = 56 # int |  (optional)

@@ -50,18 +50,18 @@ cancelInvestment
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 note_id = 789 # int | noteId
 
 try:
@@ -102,18 +102,18 @@ downloadAssignmentAgreement
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # downloadAssignmentAgreement
@@ -149,18 +149,18 @@ downloadContractFile
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 note_id = 789 # int | noteId
 
 try:
@@ -200,18 +200,18 @@ downloadDataProcessingAgreement
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # downloadDataProcessingAgreement
@@ -247,18 +247,18 @@ downloadLoanAttachment
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 id = 789 # int | id
 
 try:
@@ -298,18 +298,18 @@ downloadPrimaryMarketContractPreviewFile
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 loan_id = 789 # int | loanId
 
 try:
@@ -349,18 +349,18 @@ downloadPrivacyPolicyAgreement
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # downloadPrivacyPolicyAgreement
@@ -396,18 +396,18 @@ downloadSecondaryMarketContractPreviewFile
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 note_id = 789 # int | noteId
 
 try:
@@ -447,18 +447,18 @@ downloadUserAgreement
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # downloadUserAgreement
@@ -494,18 +494,18 @@ exportAndDownloadLoanBook
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # exportAndDownloadLoanBook
@@ -541,18 +541,18 @@ exportAndDownloadReport
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # exportAndDownloadReport
@@ -588,18 +588,18 @@ getAddFundsCredentials
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # getAddFundsCredentials
@@ -636,18 +636,18 @@ getViewLoanPrimaryMarket
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 loan_id = 789 # int | loanId
 
 try:
@@ -688,18 +688,18 @@ getViewLoanSecondaryMarket
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 note_id = 789 # int | noteId
 
 try:
@@ -740,18 +740,18 @@ getViewMyInvestment
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 note_id = 789 # int | noteId
 
 try:
@@ -792,20 +792,20 @@ investPrimaryMarketWithRequestBody
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 loan_id = 789 # int | loanId
-request_body_with_amount = api_mobile.RequestBodyWithAmount() # RequestBodyWithAmount | requestBodyWithAmount
+request_body_with_amount = viventor_api_mobile.RequestBodyWithAmount() # RequestBodyWithAmount | requestBodyWithAmount
 
 try:
     # investPrimaryMarketWithRequestBody
@@ -846,18 +846,18 @@ investSecondaryMarket
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 note_id = 789 # int | noteId
 extension_opt_in = true # bool | extensionOptIn (optional)
 
@@ -900,18 +900,18 @@ listLoanAttachments
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 loan_id = 789 # int | loanId
 
 try:
@@ -952,18 +952,18 @@ myInvestments
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # myInvestments
@@ -1000,19 +1000,19 @@ myInvestments
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
-filter = api_mobile.FilterOptions() # FilterOptions | filter
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+filter = viventor_api_mobile.FilterOptions() # FilterOptions | filter
 
 try:
     # myInvestments
@@ -1052,18 +1052,18 @@ primaryPublicInfo
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # primaryPublicInfo
@@ -1100,19 +1100,19 @@ primaryPublicInfo
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
-filter_options = api_mobile.FilterOptions() # FilterOptions | filterOptions
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+filter_options = viventor_api_mobile.FilterOptions() # FilterOptions | filterOptions
 
 try:
     # primaryPublicInfo
@@ -1152,18 +1152,18 @@ primary
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # primary
@@ -1200,19 +1200,19 @@ primary
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
-filter = api_mobile.FilterOptions() # FilterOptions | filter
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+filter = viventor_api_mobile.FilterOptions() # FilterOptions | filter
 
 try:
     # primary
@@ -1252,18 +1252,18 @@ renderAssignmentAgreement
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # renderAssignmentAgreement
@@ -1300,18 +1300,18 @@ renderContractHtml
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 note_id = 789 # int | noteId
 
 try:
@@ -1352,18 +1352,18 @@ renderPrimaryMarketContractPreviewHtml
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 loan_id = 789 # int | loanId
 
 try:
@@ -1404,18 +1404,18 @@ renderSecondaryMarketContractPreviewHtml
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 note_id = 789 # int | noteId
 
 try:
@@ -1456,18 +1456,18 @@ renderUserAgreement
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # renderUserAgreement
@@ -1504,18 +1504,18 @@ secondaryPublicInfo
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # secondaryPublicInfo
@@ -1552,18 +1552,18 @@ secondary
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # secondary
@@ -1600,19 +1600,19 @@ secondary
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
-filter = api_mobile.FilterOptions() # FilterOptions | filter
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+filter = viventor_api_mobile.FilterOptions() # FilterOptions | filter
 
 try:
     # secondary
@@ -1652,18 +1652,18 @@ sellInvestment
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 note_id = 789 # int | noteId
 sell_interest = 56 # int | sell_interest
 
@@ -1706,19 +1706,19 @@ withdrawFundsWithRequestBody
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
-withdrawal_model = api_mobile.WithdrawalModel() # WithdrawalModel | withdrawalModel
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+withdrawal_model = viventor_api_mobile.WithdrawalModel() # WithdrawalModel | withdrawalModel
 
 try:
     # withdrawFundsWithRequestBody
@@ -1758,18 +1758,18 @@ withdrawal
 ```python
 from __future__ import print_function
 import time
-import api_mobile
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = api_mobile.Configuration()
+configuration = viventor_api_mobile.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
+api_instance = viventor_api_mobile.InvestmentControllerApi(api_mobile.ApiClient(configuration))
 
 try:
     # withdrawal

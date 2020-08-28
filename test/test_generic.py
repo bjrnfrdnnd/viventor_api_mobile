@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import api_mobile
-from api_mobile.models.generic import Generic  # noqa: E501
-from api_mobile.rest import ApiException
+import viventor_api_mobile
+from viventor_api_mobile.models.generic import Generic  # noqa: E501
+from viventor_api_mobile.rest import ApiException
 
 
 class TestGeneric(unittest.TestCase):
