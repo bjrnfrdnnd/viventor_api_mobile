@@ -21,6 +21,7 @@ import ssl
 
 import certifi
 # python 2 and python 3 compatibility library
+import mimeparse
 import six
 from six.moves.urllib.parse import urlencode
 
@@ -219,11 +220,12 @@ class RESTClientObject(object):
             # In the python 3, the response.data is bytes.
             # we need to decode it to string.
             if six.PY3:
-                if 'Content-Type' in r.getheaders():
+                if 'Content-Type' not in r.getheaders() or mimeparse.parse_mime_type(r.getheader('Content-Type'))[1].upper() in ['PDF']:
+                    # when a file is returned, 'Content-Type' does not exist or is one of ['PDF',]
+                    pass
+                else:
                     # when a json is returned, 'Content-Type' exists
                     r.data = r.data.decode('utf8')
-                else:
-                    # when a file is returned, 'Content-Type' does not exist
                     pass
             # log response body
             logger.debug("response body: %s", r.data)
