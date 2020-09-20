@@ -3018,7 +3018,8 @@ class InvestmentControllerApi(object):
         form_params = []
         local_var_files = {}
 
-        body_params = None
+        body_params = {'sell_interest': sell_interest}
+
         # HTTP header `Accept`
         header_params['Accept'] = self.api_client.select_header_accept(
             ['*/*'])  # noqa: E501
