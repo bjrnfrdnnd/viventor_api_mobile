@@ -11,6 +11,7 @@ from viventor_api_mobile.rest import ApiException
 # Configure API key authorization: apiKey
 configuration = viventor_api_mobile.Configuration()
 configuration.username = 'bjrnfrdnnd@gmail.com'
+# te following is a deprecated password
 configuration.password = '7TGBUGfRWRX@x4h'
 configuration.api_key_prefix['Authorization'] = 'Bearer'
 
