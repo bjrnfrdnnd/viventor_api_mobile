@@ -1,3 +1,22 @@
+# information from Linda
+Hi Bjoern,
+
+Thank you for your reply. Please forget the JSON file I sent you. Go to https://editor.swagger.io/
+
+File->Import URL
+
+And you can import 2 of these links :  
+
+https://api.viventor.com/v2/api-docs?group=investor-api
+https://api.viventor.com/v2/api-docs?group=mobile-api
+
+And then you can choose investor-api and there will be authentication controller
+
+Please let me know how it goes.
+
+Kind regards,
+Linda
+
 # viventor_api_mobile
 All decimal values are accepted and returned with 2 decimal place precision, e.g., 150.21. All date fields are sent in ISO 8601 format YYYY-MM-DD, e.g., 2016-11-30.
 
